@@ -1,0 +1,13 @@
+Metric,Baseline (1x),Growth (5x),Scale (10x),Unit,Comments
+Target Users (Total),400,2000,4000,users,Internal staff
+Daily Active Users (DAU),220,1000,2000,users,55% active rate
+Avg Requests per User/Day,12,12,12,req/day,Based on pilot data
+Total Requests per Day,"2,640","13,200","26,400",req/day,
+Peak QPS (Concurrency),5,25,50,qps,Peak hours estimate
+Avg Input Token per Request,"1,100","1,100","1,100",tokens,Context + Prompt
+Avg Output Token per Request,350,350,350,tokens,Completion
+Total Tokens per Day (Million),3.8,19.1,38.3,M tokens,
+Vector Storage Capacity,50,250,500,GB,Medical index + SOPs
+Audit Log Retention,1,1,1,Year,Regulatory requirement
+Monthly OPEX (VND),"90,000,000","360,000,000","660,000,000",VND,Estimated with optimization
+Estimated ROI (Months),2.1,1.5,1.2,months,Based on time saved
