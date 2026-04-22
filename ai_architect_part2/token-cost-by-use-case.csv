@@ -1,0 +1,5 @@
+Use case,Main model,Fallback 1,Fallback 2,Embedding,Reranker,Judge,Avg input,Max input,Avg output,Max output,Cost/request (VND),Daily requests,Daily cost (VND)
+Record summary,GPT-4o,GPT-4o-mini,-,text-emb-3,No,Yes,2500,4000,600,1000,~540,528,285120
+SOP Q&A,GPT-4o,GPT-4o-mini,Claude 3.5,text-emb-3,Yes,Yes,1500,3000,400,500,~400,924,369600
+Admin Q&A,GPT-4o-mini,-,-,text-emb-3,No,No,500,1000,200,200,~5,1188,5940
+Total,-,-,-,-,-,-,-,-,-,-,-,2640,660660
