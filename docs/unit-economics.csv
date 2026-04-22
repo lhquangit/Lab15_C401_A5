@@ -1,0 +1,5 @@
+Package,MonthlyPriceVND,IncludedRequests,EstimatedCOGSVND,GrossProfitVND,GrossMarginPercent,PrimaryRisk
+Starter,135000000,60000,96000000,39000000,28.9,Support and human-review overhead if pilot usage is spiky
+Growth,230000000,120000,145000000,85000000,37.0,Token cost grows quickly if cache hit rate is low
+Enterprise,480000000,300000,270000000,210000000,43.8,Customization and compliance requests can expand delivery scope
+BaselineCustomerMonthlyCost,90000000,58080,90000000,0,0,Reference OPEX estimate from proposal
